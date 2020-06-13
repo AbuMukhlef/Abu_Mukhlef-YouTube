@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BDBC23E02494A6A30028673B /* Reponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC23DF2494A6A30028673B /* Reponse.swift */; };
+		BDBC23E22494DD8C0028673B /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC23E12494DD8C0028673B /* ConstantsTemplate.swift */; };
 		BDD0478E24870773000783EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0478D24870773000783EC /* AppDelegate.swift */; };
 		BDD0479024870773000783EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0478F24870773000783EC /* SceneDelegate.swift */; };
 		BDD0479224870773000783EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0479124870773000783EC /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		BDBC23DF2494A6A30028673B /* Reponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reponse.swift; sourceTree = "<group>"; };
+		BDBC23E12494DD8C0028673B /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		BDD0478A24870773000783EC /* Abu_Mukhlef-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abu_Mukhlef-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD0478D24870773000783EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD0478F24870773000783EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				BDD0479824870775000783EC /* LaunchScreen.storyboard */,
 				BDD0479B24870775000783EC /* Info.plist */,
 				BDD047A124874FA6000783EC /* Constants.swift */,
+				BDBC23E12494DD8C0028673B /* ConstantsTemplate.swift */,
 				BDD047A3248754DC000783EC /* Video.swift */,
 				BDD047A524875607000783EC /* Model.swift */,
 				BDBC23DF2494A6A30028673B /* Reponse.swift */,
@@ -153,6 +156,7 @@
 				BDD0479224870773000783EC /* ViewController.swift in Sources */,
 				BDBC23E02494A6A30028673B /* Reponse.swift in Sources */,
 				BDD0478E24870773000783EC /* AppDelegate.swift in Sources */,
+				BDBC23E22494DD8C0028673B /* ConstantsTemplate.swift in Sources */,
 				BDD0479024870773000783EC /* SceneDelegate.swift in Sources */,
 				BDD047A624875607000783EC /* Model.swift in Sources */,
 				BDD047A224874FA6000783EC /* Constants.swift in Sources */,
