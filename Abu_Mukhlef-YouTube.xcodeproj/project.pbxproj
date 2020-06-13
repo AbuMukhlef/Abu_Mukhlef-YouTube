@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDBC23E02494A6A30028673B /* Reponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC23DF2494A6A30028673B /* Reponse.swift */; };
 		BDD0478E24870773000783EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0478D24870773000783EC /* AppDelegate.swift */; };
 		BDD0479024870773000783EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0478F24870773000783EC /* SceneDelegate.swift */; };
 		BDD0479224870773000783EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0479124870773000783EC /* ViewController.swift */; };
 		BDD0479524870773000783EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD0479324870773000783EC /* Main.storyboard */; };
 		BDD0479724870775000783EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD0479624870775000783EC /* Assets.xcassets */; };
 		BDD0479A24870775000783EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD0479824870775000783EC /* LaunchScreen.storyboard */; };
+		BDD047A224874FA6000783EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD047A124874FA6000783EC /* Constants.swift */; };
+		BDD047A4248754DC000783EC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD047A3248754DC000783EC /* Video.swift */; };
+		BDD047A624875607000783EC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD047A524875607000783EC /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDBC23DF2494A6A30028673B /* Reponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reponse.swift; sourceTree = "<group>"; };
 		BDD0478A24870773000783EC /* Abu_Mukhlef-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abu_Mukhlef-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD0478D24870773000783EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD0478F24870773000783EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		BDD0479624870775000783EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD0479924870775000783EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD0479B24870775000783EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD047A124874FA6000783EC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDD047A3248754DC000783EC /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		BDD047A524875607000783EC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				BDD0479624870775000783EC /* Assets.xcassets */,
 				BDD0479824870775000783EC /* LaunchScreen.storyboard */,
 				BDD0479B24870775000783EC /* Info.plist */,
+				BDD047A124874FA6000783EC /* Constants.swift */,
+				BDD047A3248754DC000783EC /* Video.swift */,
+				BDD047A524875607000783EC /* Model.swift */,
+				BDBC23DF2494A6A30028673B /* Reponse.swift */,
 			);
 			path = "Abu_Mukhlef-YouTube";
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD0479224870773000783EC /* ViewController.swift in Sources */,
+				BDBC23E02494A6A30028673B /* Reponse.swift in Sources */,
 				BDD0478E24870773000783EC /* AppDelegate.swift in Sources */,
 				BDD0479024870773000783EC /* SceneDelegate.swift in Sources */,
+				BDD047A624875607000783EC /* Model.swift in Sources */,
+				BDD047A224874FA6000783EC /* Constants.swift in Sources */,
+				BDD047A4248754DC000783EC /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
