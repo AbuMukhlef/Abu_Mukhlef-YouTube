@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD158E91249BB6FA00E28825 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD158E90249BB6FA00E28825 /* VideoTableViewCell.swift */; };
 		BD40FADD249CCA2E001F9387 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40FADC249CCA2E001F9387 /* CacheManager.swift */; };
+		BD7C735024A659030073D279 /* DatailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C734F24A659030073D279 /* DatailViewController.swift */; };
 		BDBC23E02494A6A30028673B /* Reponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC23DF2494A6A30028673B /* Reponse.swift */; };
 		BDBC23E22494DD8C0028673B /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC23E12494DD8C0028673B /* ConstantsTemplate.swift */; };
 		BDD0478E24870773000783EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0478D24870773000783EC /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		BD158E90249BB6FA00E28825 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		BD40FADC249CCA2E001F9387 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		BD7C734F24A659030073D279 /* DatailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailViewController.swift; sourceTree = "<group>"; };
 		BDBC23DF2494A6A30028673B /* Reponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reponse.swift; sourceTree = "<group>"; };
 		BDBC23E12494DD8C0028673B /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		BDD0478A24870773000783EC /* Abu_Mukhlef-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abu_Mukhlef-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				BDD0479124870773000783EC /* ViewController.swift */,
+				BD7C734F24A659030073D279 /* DatailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7C735024A659030073D279 /* DatailViewController.swift in Sources */,
 				BDD0479224870773000783EC /* ViewController.swift in Sources */,
 				BDBC23E02494A6A30028673B /* Reponse.swift in Sources */,
 				BDD0478E24870773000783EC /* AppDelegate.swift in Sources */,
